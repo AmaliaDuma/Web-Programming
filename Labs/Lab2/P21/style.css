@@ -1,0 +1,51 @@
+div.child{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+#div1{
+    width: 500px;
+    height: 500px;
+    background-color: #2931A5;
+    position: relative;
+    pointer-events: none;
+}
+
+#div2{
+    background-color: #63D6DE;
+}
+
+#div3{
+    background-color: #63DE88;
+}
+
+#div4{
+    background-color: #F1FF6F;
+    pointer-events: auto;
+}
+
+#div1:hover{
+    background-color: #7D529A;
+}
+
+#div2:hover{
+    background-color: #B84BFF;
+}
+
+#div3:hover{
+    background-color: #FF4B4B;
+}
+
+#div4:hover{
+    background-color: #FFA04B;
+}
+
+p{
+    text-align: center;
+    color: #FFFFFF;
+    font-style: bold;
+}
