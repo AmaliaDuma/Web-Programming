@@ -1,0 +1,122 @@
+head, body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(95, 255, 207, 1) 0%, rgba(175, 255, 231, 1) 32%, rgba(199, 255, 238, 1) 63%, rgba(237, 255, 250, 1) 100%);
+
+}
+
+.optionsContainer{
+    width: 22rem;
+    height: 9rem;
+    background: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgb(153 153 153 / 56%);
+
+}
+
+.options{
+    margin: 0.7rem;
+}
+
+.optionsInput{
+    width: 20rem;
+    height: 2rem;
+    cursor: pointer;
+    background: rgb(95 255 207 / 24%);
+    box-shadow: 3px 3px 3px #000000ba;
+    border-radius: 45px;
+    border-color: rgb(155 155 155 / 7%);
+    font-family: Segoe UI Semibold;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px white;
+}
+
+.optionsInput:hover{
+    background: rgb(95 255 207 / 58%);
+}
+
+.scoreContainer{
+    background: white;
+    width: 9rem;
+    height: 11rem;
+    position: relative;
+    top: 40%;
+    left: 80%;
+    font-family: Segoe UI Semibold;
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(95, 255, 207, 1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #29d798;
+    box-shadow: 2px 2px 1px rgba(153, 153, 153, 0.56);
+}
+
+#scoreText{
+    position: relative;
+    top: 10%;
+}
+
+.puzzleContainer {
+    width: 755px;
+    height: 445px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 0.3rem 0.3rem 0.6rem 0.1rem rgb(139 139 139 / 75%);
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.puzzleContainer img {
+    width: 250px;
+    height: 145px;
+    margin: 0;
+    padding: 0;
+}
+
+.puzzle_piece {
+    float: left;
+    outline: 1px solid white;
+    outline-offset: -1px;
+
+}
+
+.puzzle_piece:hover{
+    cursor: grab;
+}
+
+#resetPuzzle{
+    font-family: Segoe UI Semibold;
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(95, 255, 207, 1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #29d798;
+
+    position: absolute;
+    width: 14rem;
+    height: 3.3rem;
+    left: 2%;
+    top: 4%;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #21b37e;
+    border-color: rgb(155 155 155 / 7%);
+}
