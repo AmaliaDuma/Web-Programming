@@ -1,11 +1,11 @@
-##Task:
+## Task:
 - Write a web application for an image puzzle. 
 - All functionality should be at the server-side. 
 - The application should also record and display how many move operations were required for the user to solve the puzzle.
 
-##LoginPage
+## LoginPage
 ![Snapshot](demo/loginPage.png)
-##MenuPage
+## MenuPage
 ![Snapshot](demo/menuPage.png)
-##PuzzlePage
+## PuzzlePage
 ![Snapshot](demo/puzzlePage.png)
