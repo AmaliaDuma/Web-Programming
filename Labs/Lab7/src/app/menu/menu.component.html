@@ -1,0 +1,11 @@
+<div class="container">
+  <button [routerLink]="['/home']" routerLinkActive="router-link-active" [ngClass]="[home_style]" (click)="home_clicked()">Home</button>
+  <button [routerLink]="['/products']" routerLinkActive="router-link-active" [ngClass]="[products_style]" (click)="prods_clicked()">Products</button>
+  <button [routerLink]="['/cart']" routerLinkActive="router-link-active" [ngClass]="[cart_style]" (click)="cart_clicked()">Cart</button>
+  <button [routerLink]="['/login']" routerLinkActive="router-link-active" (click)="logOut()">LogOut</button>
+
+</div>
+
+<div class="body">
+  <p [ngClass]="[welcome_text]">Welcome!</p>
+</div>

@@ -1,0 +1,62 @@
+.products tr:nth-child(even) {
+    background: linear-gradient(90deg, rgba(26,15,177,0.6) 0%, rgba(87,67,205,0.7) 40%, rgba(50,91,210,0.6) 71%, rgba(16,87,213,0.6029762246695554) 100%);
+}
+
+.products tr:nth-child(odd) {
+    background: linear-gradient(270deg, rgba(26,15,177,0.6) 0%, rgba(87,67,205,0.7) 40%, rgba(50,91,210,0.6) 71%, rgba(16,87,213,0.6029762246695554) 100%);
+}
+
+.products td {
+min-width: 70px;
+padding-left: 1rem;
+}
+
+.products tr:hover {
+color: #2c3a41;
+background-color: #e6e6e6;
+left: .1em;
+position: relative;
+}
+
+.products tr.selected {
+background-color: #090602;
+color: white;
+}
+
+img {
+    height: 7rem;
+}
+
+.container {
+    font-family: Calibri;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2px black;
+}
+
+.btn1{
+    position: relative;
+    right: 10rem;
+}
+
+.btn2{
+    position: relative;
+    left: 10rem;
+}
+
+#btn1, #btn2 {
+    font-family: Oswald;
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    border-radius: 0.8rem;
+    border-width: 0rem;
+    width: 5rem;
+    height: 2rem;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+}

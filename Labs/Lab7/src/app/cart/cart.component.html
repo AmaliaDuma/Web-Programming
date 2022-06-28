@@ -1,0 +1,16 @@
+<app-menu></app-menu>
+
+<div class="empty" *ngIf="products.length < 1">
+    <h3>No items in cart.</h3>
+</div>
+
+<div class="container">
+    <table class="products">
+        <tr *ngFor = "let prod of products">
+            <td>{{prod.name}}</td>
+            <td>{{prod.price}}</td>
+            <td><img src={{prod.imgSrc}}></td>
+            <td><button (click)="delete_from_cart(prod)">Remove</button></td>
+        </tr>
+    </table>
+</div>

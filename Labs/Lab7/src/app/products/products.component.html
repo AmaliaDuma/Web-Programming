@@ -1,0 +1,20 @@
+<app-menu></app-menu>
+
+<div class="container">
+    <div class="btn1">
+        <button *ngIf="has_prev" id="btn1" (click)="prev_selected()">Prev</button>
+    </div>
+    <div class="box">
+        <table class="products">
+            <tr *ngFor = "let prod of products" (click)="onSelect(prod)">
+                <td>{{prod.name}}</td>
+                <td>{{prod.price}}</td>
+                <td><img src={{prod.imgSrc}}></td>
+                <td><button (click)="add_to_cart(prod)">Add</button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="btn2">
+        <button *ngIf="has_next" id="btn2" (click)="next_selected()">Next</button>
+    </div>
+</div>
