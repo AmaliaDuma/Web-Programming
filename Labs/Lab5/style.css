@@ -1,0 +1,59 @@
+html, body { 
+	height : 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#container{
+    display: none;
+}
+
+#dialog {
+    height: 10rem;
+    width: 20rem;
+    border: 1px solid #6600DB;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: absolute;
+    background-color: #FCFCFC
+}
+
+#dialog-head{
+    height: 25%;
+    width: 95%;
+    background-color: rgba(152, 100, 212, 0.35);
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.25rem;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+#dialog-body{
+    height: 60%;
+    width: 88%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+
+#dialog-head-title{
+    width: 90%;
+}
+
+#close-button{
+    height: 55%;
+    align-self: center;
+    font-weight: bold;
+    border: 1px solid #6600DB;
+    background-color: #F1E7F5;
+}
+
+#headline{
+    margin-block-start: 0.7rem;
+    margin-left: 0.7rem;
+}
